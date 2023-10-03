@@ -1,0 +1,19 @@
+body{
+    background-color: #EEF8E3;
+}
+
+p{
+    background: linear-gradient(to bottom, #eef8e3, #B0DC7A);
+}
+
+#first{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#third{
+    font-family: 'Times New Roman', Times, serif;
+}

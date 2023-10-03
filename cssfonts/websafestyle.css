@@ -2,8 +2,9 @@ body{
     background-color: #EEF8E3;
 }
 
-p{
+div{
     background: linear-gradient(to bottom, #eef8e3, #B0DC7A);
+    box-shadow: 2px 2px #000;
 }
 
 #first{

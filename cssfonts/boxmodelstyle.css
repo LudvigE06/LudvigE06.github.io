@@ -1,0 +1,19 @@
+body{background-color: #EBF7E3;}
+
+#first{
+    color: #9BD770;
+    margin: 40px;
+}
+
+#second{
+    color: #66B032; 
+    margin: 20px;
+    padding: 10px;
+    }
+
+    #third{
+        color: #375F1B;
+        margin: 30px;
+        padding: 30px;
+        border: 7px solid #22AABB;
+    }

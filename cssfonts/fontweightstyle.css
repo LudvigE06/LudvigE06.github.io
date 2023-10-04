@@ -4,12 +4,33 @@ body{
 
 p{
     background: linear-gradient(to bottom, #FFBAA3, #FE9772);
+    box-shadow: 2px 2px #000;
 }
 
-#first{}
+#first{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-#second{}
+#second{
+    font-family: 'Courier New', Courier, monospace;
+}
 
-#third{}
+#third{
+    font-family: 'Times New Roman', Times, serif;
+}
 
-#fourth{}
+.light{
+    font-weight: lighter;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
+}

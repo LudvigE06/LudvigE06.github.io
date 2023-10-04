@@ -1,0 +1,25 @@
+body{
+    background-color: #D8E7F8;
+}
+
+p{
+    background: linear-gradient(to bottom, #D8E7F8, #609CE1);
+    box-shadow: 2px 2px #000;
+    
+}
+
+.small{
+    font-size: 0.5em;
+}
+
+.normal{
+    font-size: 1em;
+}
+
+.large{
+    font-size: 1.5em;
+}
+
+.larger{
+    font-size: 2em;
+}

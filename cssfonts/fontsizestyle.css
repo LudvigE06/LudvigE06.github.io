@@ -5,7 +5,8 @@ body{
 p{
     background: linear-gradient(to bottom, #D8E7F8, #609CE1);
     box-shadow: 2px 2px #000;
-    
+    margin: 30px;
+    padding: 20px;
 }
 
 .small{

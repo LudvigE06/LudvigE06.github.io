@@ -1,6 +1,5 @@
 body{
     background-color: #D8E7F8;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 p{
@@ -8,6 +7,10 @@ p{
     box-shadow: 2px 2px #000;
     margin: 30px;
     padding: 20px;
+}
+
+div{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .small{

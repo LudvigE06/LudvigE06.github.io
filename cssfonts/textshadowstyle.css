@@ -32,10 +32,12 @@ p{
 
 #titel2{
     text-shadow: 4px 4px 4px #666666;
+    font-size: large;
 }
 
 #titel3{
     color: coral;
     text-shadow: 0 0 10px #00ff00;
+    font-size: large;
 }
 

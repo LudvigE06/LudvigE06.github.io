@@ -14,3 +14,24 @@ p{
 
 }
 
+#second{
+
+}
+
+#third{
+
+}
+
+#titel1{
+    color: green;
+    text-shadow: 1px 1px 2px black,0 0 20px blue,0 0 7px darkblue;
+}
+
+#titel2{
+    text-shadow: 4px 4px 4px #666666;
+}
+
+#titel3{
+    color: coral;
+    text-shadow: 0 0 10px #00ff00;
+}

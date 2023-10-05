@@ -5,7 +5,7 @@ body{
 p{
     background: linear-gradient(to bottom, #FFBAA3, #FE9772);
     box-shadow: 2px 2px #000;
-    
+    width: fit-content;
     margin: 40px;
 }
 
@@ -17,18 +17,15 @@ p{
 
 #second{
     font-family: 'Courier New', Courier, monospace;
-    width: auto;
     margin: 40px;
 }
 
 #third{
     font-family: 'Times New Roman', Times, serif;
-    width: auto;
     margin: 40px;
 }
 
 #fourth{
-    width: auto;
     margin: 40px;
 }
 

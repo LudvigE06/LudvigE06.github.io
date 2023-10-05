@@ -1,0 +1,10 @@
+body{
+    background-color: #FFCCC2;
+    width: fit-content;
+}
+
+p{
+    background: linear-gradient(to bottom, #FFCCC2, #FE8F77);
+    box-shadow: 2px 2px #000;
+}
+

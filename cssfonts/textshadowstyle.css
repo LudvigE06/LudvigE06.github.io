@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Great+Vibes&family=VT323&display=swap');
+
 body{
     background-color: #D1DEFF;
     width: fit-content;
@@ -11,15 +13,15 @@ p{
 }
 
 #first{
-
+    font-family: 'Great Vibes', cursive;
 }
 
 #second{
-
+    font-family: 'Cabin Sketch', cursive;
 }
 
 #third{
-
+    font-family: 'VT323', monospace;
 }
 
 #titel1{
@@ -35,3 +37,4 @@ p{
     color: coral;
     text-shadow: 0 0 10px #00ff00;
 }
+

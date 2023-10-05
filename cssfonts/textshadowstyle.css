@@ -1,0 +1,16 @@
+body{
+    background-color: #D1DEFF;
+    width: fit-content;
+}
+
+p{
+    background: linear-gradient(to bottom, #D1DEFF, #678FFE);
+    box-shadow: 2px 2px #000;
+    margin: 30px;
+    padding: 10px;
+}
+
+#first{
+
+}
+

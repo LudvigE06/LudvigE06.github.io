@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Croissant+One&family=Pixelify+Sans&display=swap');
+
+
 body{
     background-color: #FFCCC2;
     width: fit-content;
@@ -6,5 +9,19 @@ body{
 p{
     background: linear-gradient(to bottom, #FFCCC2, #FE8F77);
     box-shadow: 2px 2px #000;
+    margin: 40px;
+    padding: 10px;
+}
+
+#bungee{
+    font-family: 'Bungee Spice', cursive;
+}
+
+#croissant{
+    font-family: 'Croissant One', cursive;
+}
+
+#pixelify{
+    font-family: 'Pixelify Sans', cursive;
 }
 

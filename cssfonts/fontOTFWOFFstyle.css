@@ -1,5 +1,5 @@
 @font-face {
-    font-family: myRistretto;
+    font-family: ristretto;
     src: url(ristretto.woff);
     font-family: mayestica;
     src: url(Mayestica.otf)
@@ -19,7 +19,7 @@ p{
 }
 
 #ristretto{
-    font-family: myRistretto,sans-serif;
+    font-family: ristretto,sans-serif;
 }
 
 #mayestica{

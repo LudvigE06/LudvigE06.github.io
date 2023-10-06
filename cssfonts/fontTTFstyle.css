@@ -13,6 +13,7 @@ body{
 
 p{
     background: linear-gradient(to bottom, #E1F3CE, #B0DC7A);
+    box-shadow: 2px 2px #000;
     margin: 30px;
     padding: 10px;
 }

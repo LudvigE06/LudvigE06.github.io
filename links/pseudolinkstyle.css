@@ -6,7 +6,7 @@ body{
 
 a {
     float: left;
-    margin: 5px;
+    padding: 5em;
     outline: none;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;

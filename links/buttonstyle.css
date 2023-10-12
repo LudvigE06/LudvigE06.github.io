@@ -1,0 +1,36 @@
+body{
+    background-color: green;
+}
+
+div{
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: fit-content;
+}
+
+#expressen{
+    border-left: red;
+    border-style: ridge;
+}
+
+#aftonbladet{
+    border-left: yellow;
+    border-style: ridge;
+}
+
+#sydsvenskan{
+    border-left: blue;
+    border-style: ridge;
+}
+
+#dn{
+    border-left: green;
+    border-style: ridge;
+}
+
+a:hover{
+    background-color: darkgray;
+}

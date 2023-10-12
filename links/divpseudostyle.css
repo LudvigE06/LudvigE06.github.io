@@ -17,12 +17,12 @@ div{
     color: white;
 }
 
-:hover{
+div:hover{
     color: blue;
     border: 3px lightblue;
 }
 
-:focus{
+div:focus{
     background-color: blue;
     border: 3px white, 1px blue, 1px white;
 }

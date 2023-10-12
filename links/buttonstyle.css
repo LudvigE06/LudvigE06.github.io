@@ -12,22 +12,22 @@ div{
 }
 
 #expressen{
-    border-left: red;
+    border-left: 5px red;
     border-style: ridge;
 }
 
 #aftonbladet{
-    border-left: yellow;
+    border-left: 5px yellow;
     border-style: ridge;
 }
 
 #sydsvenskan{
-    border-left: blue;
+    border-left: 5px blue;
     border-style: ridge;
 }
 
 #dn{
-    border-left: green;
+    border-left: 5px green;
     border-style: ridge;
 }
 

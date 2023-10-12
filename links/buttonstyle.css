@@ -32,6 +32,6 @@ div{
     border-style: ridge;
 }
 
-a:hover{
+div:hover{
     background-color: darkgray;
 }

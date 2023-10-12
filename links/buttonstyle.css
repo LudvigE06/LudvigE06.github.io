@@ -10,6 +10,8 @@ div{
     border-radius: 5px;
     background-color: gray;
     width: fit-content;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #expressen{

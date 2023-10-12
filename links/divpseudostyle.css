@@ -10,7 +10,7 @@ div{
     border-radius: 5px;
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
-    border: 2px white;
+    border: 5px solid white;
     width: fit-content;
     padding: 20px;
     margin: 20px;
@@ -19,7 +19,7 @@ div{
 
 div:hover{
     color: blue;
-    border: 3px lightblue;
+    border: 3px solid lightblue;
 }
 
 div:focus{

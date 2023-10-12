@@ -6,18 +6,19 @@ h1{
     color: red
 }
 
-a{
+div{
     border-radius: 5px;
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
+    border: 2px white;
 }
 
-a:hover{
+:hover{
     color: blue;
     border: 3px lightblue;
 }
 
-a:focus{
+:focus{
     background-color: blue;
     border: 3px white, 1px blue, 1px white;
 

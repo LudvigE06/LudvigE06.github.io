@@ -1,5 +1,5 @@
 body{
-    background-color: lightyellow;
+    background-color: rgb(172, 230, 86);
     padding: 30px;
     width: 500px;
     font-family: 'Courier New', Courier, monospace;
@@ -7,6 +7,7 @@ body{
 
 a{
     display: block;
+    margin: 20px;
 }
 
 span{

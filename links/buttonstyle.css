@@ -11,28 +11,28 @@ div{
     margin: 20px;
     border-radius: 5px;
     background-color: darkgray;
-    width: fit-content;
+    width: 220px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #expressen{
-    border-left: 10px red;
+    border-left: 7px red;
     border-style: ridge;
 }
 
 #aftonbladet{
-    border-left: 10px yellow;
+    border-left: 7px yellow;
     border-style: ridge;
 }
 
 #sydsvenskan{
-    border-left: 10px blue;
+    border-left: 7px blue;
     border-style: ridge;
 }
 
 #dn{
-    border-left: 10px green;
+    border-left: 7px green;
     border-style: ridge;
 }
 

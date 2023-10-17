@@ -23,6 +23,8 @@ a{
     margin-bottom: 15px; 
     width: 180px;
     display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a:hover{

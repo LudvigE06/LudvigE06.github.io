@@ -1,0 +1,27 @@
+body{
+    background-color: lightgreen;
+}
+
+#zlatan{
+    border: 2px solid red;
+}
+
+#kulu{
+    border: 2px solid green;
+}
+
+#isak{
+    border: 2px solid blue;
+}
+
+div{
+    float: left;
+    margin: 0px;
+    box-shadow: 10px 10px black;
+}
+
+figcaption{
+    padding: 5px;
+    text-align: center;
+}
+

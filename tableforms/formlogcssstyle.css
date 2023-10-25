@@ -4,5 +4,12 @@ body{
 
 label{
     color: blue;
+    display: inline-block;
 }
+
+input{
+    margin: 30px;
+}
+
+
 

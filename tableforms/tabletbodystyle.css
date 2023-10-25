@@ -25,7 +25,7 @@ tfoot{
 }
 
 td{
-    border-color: green;
+    border: 1px solid green;
     text-align: center;
     padding: 20px;
 }

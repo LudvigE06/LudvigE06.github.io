@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(196, 223, 144);
+}
+
+caption{
+    font-style: italic;
+}
+
+table{
+    background-color:  rgb(196, 223, 144);
+    box-shadow: 10px 10px black;
+    border: 3px solid blue;
+    border-spacing: 0;
+    height: 200px;
+    width: 500px;
+}
+
+thead{
+    color: red;
+    font-weight: bold;
+}
+
+tfoot{
+    color: blue;
+}
+
+td{
+    border-color: green;
+    text-align: center;
+    padding: 20px;
+}

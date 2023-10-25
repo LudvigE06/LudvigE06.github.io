@@ -8,7 +8,6 @@ caption{
 
 table{
     background-color:  rgb(196, 223, 144);
-    box-shadow: 10px 10px black;
     border: 3px solid blue;
     border-spacing: 0;
     width: 200px;
@@ -37,4 +36,8 @@ td{
 #foot{
     color: yellow;
     border: 1px solid yellowgreen;
+}
+
+#table{
+    box-shadow: 10px 10px black;
 }

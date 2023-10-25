@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(196, 223, 144);
+}
+
+#roman{
+    border: 1px solid blue;
+    list-style-type: upper-roman;
+}
+
+#description{
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}
+
+#serif{
+    border: 1px solid blue;
+    list-style-type: none;
+}
+
+#sansserif{
+    border: 1px solid blue;
+}
+
+#fonttypes{
+    border: 1px solid blue;
+    list-style-type: square;
+}

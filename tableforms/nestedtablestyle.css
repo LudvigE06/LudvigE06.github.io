@@ -42,6 +42,6 @@ td{
     box-shadow: 10px 10px black;
 }
 
-th{
-    border-color: yellowgreen;
+#border{
+    border: 1px solid yellowgreen;
 }

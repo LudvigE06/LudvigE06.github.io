@@ -2,6 +2,14 @@ body{
     background-color: rgb(196, 223, 144);
 }
 
+h1{
+    margin-left: 10px;
+}
+
+ol, ul, dl{
+    width: 600px;
+}
+
 #roman{
     border: 1px solid blue;
     list-style-type: upper-roman;

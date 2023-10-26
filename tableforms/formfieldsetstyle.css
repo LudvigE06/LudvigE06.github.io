@@ -1,3 +1,19 @@
 body{
     background-color: rgb(196, 223, 144);
 }
+
+legend{
+    color: purple;
+    width: 100px;
+    background-color: rgb(247, 216, 221);
+}
+
+label{
+    color: blue;
+}
+
+fieldset{
+    border: 1px solid gray;
+    width: 400px;
+}
+

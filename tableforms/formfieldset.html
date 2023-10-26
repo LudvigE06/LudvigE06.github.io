@@ -6,6 +6,53 @@
         <link rel="stylesheet" type="text/css" href="formfieldsetstyle.css">
     </head>
     <body>
-        
+        <h1>Form with fieldset</h1>
+        <form>
+        <fieldset>
+            <legend>Login</legend>
+            <p><label for="username">Username:*</label>
+            <input type="text" name="username" required></p>
+
+            <p><label for="password">Password:*</label>
+            <input type="text" name="password" required></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender*</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male"value="Male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="programming" value="Java"><br>
+            <label for="c++">C++</label>
+            <input type="checkbox" id="c++" name="programming" value="C++"><br>
+            <label for="c#">C#</label>
+            <input type="checkbox" id="c#" name="programming" value="C#"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fruit</legend>
+            <label for="fruit-select">Choose a fruit:</label>
+            <select id="fruit-select" name="fruits">
+            <option value="">--Please choose an option--</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="pear">Pear</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comment</legend>
+            <textarea rows="5" cols="45">Enter your comment here</textarea>
+        </fieldset>
+
+        <p><input type="submit" id="send" value="Send"></p>
+        </form>
     </body>
 </html>

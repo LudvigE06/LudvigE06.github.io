@@ -43,17 +43,16 @@ input{
 }
 
 #java{
-    
+   margin-left: 21px; 
 }
 
 #cplus{
-
+    margin-left: 20px; 
 }
 
 #csharp{
-
+    margin-left: 30px; 
 }
 
-#programering{
-    
-}
+
+

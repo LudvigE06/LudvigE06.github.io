@@ -31,4 +31,25 @@ fieldset{
 
 input{
    margin-left: 30px; 
+   margin: 15px;
+}
+
+#male{
+    margin-left: 24px;
+}
+
+#female{
+    margin-left: 10px;
+}
+
+#java{
+    
+}
+
+#cplus{
+
+}
+
+#csharp{
+    
 }

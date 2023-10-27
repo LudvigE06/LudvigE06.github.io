@@ -3,12 +3,12 @@ body{
 }
 
 form{
-    width: 400px;
+    width: 600px;
 }
 
 legend{
     color: purple;
-    width: 100px;
+    width: 200px;
     background-color: rgb(247, 216, 221);
 }
 

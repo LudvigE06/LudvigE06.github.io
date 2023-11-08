@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Onlod exempel</title>
+        <script>
+            window.onload= function() {
+                alert("webbsidan är laddat ");
+                
+            }
+            window.onbeforeunload = function (event) {
+                event.preventDefault();
+                return (event.ReturnValue == "");
+            }
+        </script>
+    </head>
+    <body>
+        <a href="https://www.aftonbladet.se/">Läs Aftonbladet</a>
+    </body>
+</html>

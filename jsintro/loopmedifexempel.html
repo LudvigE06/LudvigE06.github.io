@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Loop me if</title>
+        <script>
+            function loops()
+            {
+                var nr=getElementById(nr).value;
+                var summa=0;
+                if (nr<=0) {
+                    document.getElementById(svarfor).innerHTML ="Error number>0!";
+                }
+                else
+                {
+                    for (var i=0;i<=nr;i++)
+                    {
+                        summa+=i;
+                    }
+                    document.getElementById(svarfor).innerHTML ="Summera alla nummer från 1 till nr med for: " +summa+" <br> Nu med while:<br>";
+                    summa=0;
+                    var j=0;
+                    while (j<=0)
+                    {
+                        summa+=j;
+                        j++;
+                    }
+                    document.getElementById(svarwhile).innerHTML ="Summera alla nummer från 1 till nr med while: "+summa;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <label>Enter number(number>0):</label>
+        <input type="number" id="nr" onchange="loops()">
+        <br>
+        <b><div id="svarfor"></div>
+        <div id="svarwhile"></div></b>
+    </body>
+</html>

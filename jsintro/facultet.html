@@ -20,7 +20,8 @@ var n = Number(prompt("Please enter a positive integer", ""));
 // Beräkna fakultet om inmatning är valid  
 var f = factorial(n);
 // Visa resultat  
-alert("Resulat: "+ n + "! = " + f);
+document.getElementById("svar").innerHTML = "Resulat: "+ n + "! = " + f ;
+
 }
 catch (ex) { // om inmatning är inte valid då denna del exekveras  
 alert(ex); // säger vad felet är
@@ -29,6 +30,6 @@ alert(ex); // säger vad felet är
         </script>
     </head>
     <body onload="inmatningFakultet()">
-        <div></div>
+        <h1 id="svar"></h1>
     </body>
 </html>

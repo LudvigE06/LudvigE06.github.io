@@ -5,17 +5,31 @@
         <title>Array</title>
         <script>
             var cities = ["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"]
-            for (i=0;i<3;i++)
+            for (var i=0;i<3;i++)
             {
             var city = prompt("Skriv en stad" , "");
             cities.push(city);
             }
             document.write("After push <br>");
-            cities.forEach(arrayElements);
-            function arrayElements (element, index){
+            cities.forEach(utskrift);
+            function utskrift (element, index){
                 document.write('cities[' + index + '] = ' + element +"<br>");
             }
+            cities.pop();
+            document.write("After pop <br>");
+            cities.forEach(utskrift);
+            cities.shift();
+            document.write("After shift <br>");
+            cities.forEach(utskrift);
+            var removed = cities-splice(2, 0, 'Stockholm');
+            document.write("After splice <br>");
+            cities.forEach(utskrift);
+            delete cities[2]
+            document.write("After delete <br>");
+            cities.forEach(utskrift);
+
             
+
         </script>
     </head>
     <body>

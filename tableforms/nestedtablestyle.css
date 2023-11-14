@@ -43,5 +43,5 @@ td{
 }
 
 .border{
-    border: 1px solid yellowgreen;
+    border-right: 1px solid yellowgreen;
 }

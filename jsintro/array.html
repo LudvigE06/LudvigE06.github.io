@@ -21,7 +21,7 @@
             cities.shift();
             document.write("After shift <br>");
             cities.forEach(utskrift);
-            var removed = cities-splice(2, 0, 'Stockholm');
+            var removed = cities.splice(2, 0, 'Stockholm');
             document.write("After splice <br>");
             cities.forEach(utskrift);
             delete cities[2]

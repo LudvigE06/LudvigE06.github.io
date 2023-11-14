@@ -29,14 +29,9 @@ td{
     padding: 20px;
 }
 
-#head{
-    color: purple;
-    border: 1px solid yellowgreen;
-}
-
 .foot{
     color: darkorange;
-    border: 1px solid yellowgreen;
+    border-right: 1px solid yellowgreen;
 }
 
 #table{
@@ -44,5 +39,6 @@ td{
 }
 
 .border{
+    color: purple;
     border-right: 1px solid yellowgreen;
 }

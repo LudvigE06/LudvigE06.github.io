@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Array</title>
+        <script>
+            var cities = ["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"]
+            for (i=0;i<3;i++)
+            {
+            var city = prompt("Skriv en stad" , "");
+            cities.push(city);
+            }
+            document.write("After push <br>");
+            cities.forEach(arrayElements);
+            function arrayElements (element, index){
+                document.write('cities[' + index + '] = ' + element +"<br>");
+            }
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

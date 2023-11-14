@@ -10,7 +10,12 @@ table{
     background-color:  rgb(196, 223, 144);
     border: 2px solid blue;
     border-spacing: 0;
-    width: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+#table{
+    height: 700px;
 }
 
 thead{

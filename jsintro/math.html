@@ -6,13 +6,14 @@
         <script>
             var tal = prompt("Skriv ett heltal:","");
             var talparsed = Number.parseInt(tal, 10);
-            if (Number.isNaN(talparsed)) {
+            if (!Number.isNaN(talparsed)) {
                 document.write("Number is <b>" + talparsed+"</b><br>");
                 document.write("log10 is <b>" + Math.log(talparsed).toFixed(2) +"</b><br>");
                 document.write("sqrt is <b>" + Math.sqrt(talparsed).toFixed(2) +"</b><br>");
                 document.write("Value of PI is <b>" + Math.PI.toFixed(2) +"</b><br>");
                 document.write("Power to 2 is <b>" + Math.pow(talparsed,2).toFixed(2) +"</b><br>");
                 document.write("Sin is <b>" + Math.sin(talparsed).toFixed(2) +"</b><br>");
+                document.write("Random between 5 and 15 <b>" + getRandomArbitrary(5,15).toFixed(2)+ "</b><br>")
             }
         </script>
     </head>

@@ -13,7 +13,11 @@
                 document.write("Value of PI is <b>" + Math.PI.toFixed(2) +"</b><br>");
                 document.write("Power to 2 is <b>" + Math.pow(talparsed,2).toFixed(2) +"</b><br>");
                 document.write("Sin is <b>" + Math.sin(talparsed).toFixed(2) +"</b><br>");
-                document.write("Random between 5 and 15 <b>" + getRandomArbitrary(5,15).toFixed(2)+ "</b><br>")
+                document.write("Random between 5 and 15 <b>" + randomNumber(5,15).toFixed(2)+ "</b><br>");
+
+                function randomNumber(min, max) {
+                    return Math.random() * (max - min) + min;
+                }
             }
         </script>
     </head>

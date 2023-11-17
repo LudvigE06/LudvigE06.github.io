@@ -19,9 +19,9 @@
             document.write("<b>Tid: </b>" + hrs+":"+minute+":"+second+"<br>");
 
             var newYear = new Date(Date.parse("December 31," + year));
-            var timeLeft = newYear.getTime()-now.getTime();
-            var daysLeft = Math.floor(timeLeft / (100*60*60*24));
-            document.write("Nytt år är<b> " + daysLeft + "</b>dagar ifrån.<br>");
+            var timeLeft = newYear.getTime() - now.getTime();
+            var daysLeft = Math.floor(timeLeft / (1000*60*60*24));
+            document.write("Nytt år är<b> " + daysLeft + "</b> dagar ifrån.<br>");
 
         </script>
     </head>

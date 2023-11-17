@@ -4,15 +4,50 @@
         <meta charset="utf-8">
         <title>Form</title>
         <script>
+            function showEX()
+            {
 
+            }
+
+            function Japan()
+            {
+                alert("MoshiMoshi");
+            }
+            function India()
+            {
+                alert("Namaste");
+            }
+            function China()
+            {
+                alert("Ni hao");
+            }
+
+            function blur()
+            {
+
+            }
+
+            
         </script>
     </head>
     <body>
-        <form>
+        <form name="form">
             <p><label for="ex">Exempel:</label>
-            <input type="text" name="ex"></p>
+            <input type="text" id="ex" name="exempelstring"></p>
 
-            <p><input type="submit" id="showEx" value="skriv ut exempelfield värde"></p>
+            <p><input type="button" value="skriv ut exempelfield värde" onclick="showEx()"></p>
+
+            <p>Hej i olika länder</p>
+
+            <input type="button" value="Japan" onclick="Japan()">
+            <input type="button" value="Indien" onclick="India()">
+            <input type="button" value="Kina" onclick="China()">
+
+            <p><label for="namn">Namn:</label>
+            <input type="text" id="namn"  onfocus="" onblur=""></p>
+
+            <p><label for="city">Stad:</label>
+            <input type="text" id="city" onfocus="" onblur=""></p>
         </form>
     </body>
 </html>

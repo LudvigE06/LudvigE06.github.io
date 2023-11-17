@@ -15,12 +15,12 @@
             var minute = now.getMinutes();
             var second = now.getSeconds();
 
-            document.write("<b>År: " + year+"<br>");
-            document.write("<b>Tid: " + hrs+":"+minute+":"+second+"<br>");
+            document.write("<b>År: </b>" + year+"<br>");
+            document.write("<b>Tid: </b>" + hrs+":"+minute+":"+second+"<br>");
 
             var newYear = new Date(Date.parse("December 31," + year))
-            var daysLeft = 
-            document.write("Nytt år är<b> " + + "</b>dagar ifrån.<br>");
+            var daysLeft = newYear-now /100*60*60*24 
+            document.write("Nytt år är<b> " + daysLeft + "</b>dagar ifrån.<br>");
 
         </script>
     </head>

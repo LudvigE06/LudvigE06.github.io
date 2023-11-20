@@ -3,7 +3,7 @@ body{
 }
 
 form{
-    width: 450px;
+    width: 400px;
 }
 
 legend{
@@ -21,8 +21,8 @@ fieldset{
 }
 
 #send{
-    width: 85px;
-    margin-left: 182.5px;
+    width: 100px;
+    margin-left: 160px;
 }
 
 #fruit{

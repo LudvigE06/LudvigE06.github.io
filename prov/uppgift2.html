@@ -15,29 +15,33 @@
             
         </style>
         <script>
-            function count(sign){
-                try{
-                    var tal1=parseInt(document.getElementById(nr1).value);
-                    var tal2=parseInt(document.getElementById(nr2).value);
-                    if (sign=='+'){
-                        alert(tal1+tal2);
-                    }
-                    else if (sign=='-'){
-                        alert(tal1-tal2);
-                    }
-                    else if (sign=='*'){
-                        alert(tal1*tal2);
-                    }
-                    else (sign=='/')
-                    {
-                        alert(tal1/tal2);
-                    }
-                
-                }
-                catch(ex) {
-                    alert(ex);
-                }
-    }
+              function plus() {
+        var tal1= parseInt(document.getElementById("nr1").value);  
+                var tal2= parseInt(document.getElementById("nr2").value); 
+        alert(tal1+tal2);
+        }
+           
+          function minus() {
+           var tal1= parseInt(document.getElementById("nr1").value);  
+                var tal2= parseInt(document.getElementById("nr2").value);
+        alert(tal1-tal2);
+        
+        }
+        
+          function times() {
+           var tal1= parseInt(document.getElementById("nr1").value);  
+                var tal2= parseInt(document.getElementById("nr2").value);
+        alert(tal1*tal2);
+         
+        }
+        
+          function divide() {
+           var tal1= parseInt(document.getElementById("nr1").value);  
+                var tal2= parseInt(document.getElementById("nr2").value);
+        alert(tal1/tal2);
+        
+        }
+
         </script>
     </head>
     <body>
@@ -45,9 +49,9 @@
             <p><label for="tal1">Tal: 1</label><input type="text" id="nr1" ></p>
             <p><label for="tal2">Tal: 2</label><input type="text" id="nr2" ></p>
         </form>
-        <button onclick="count('+')">+</button>
-        <button onclick="count('-')">-</button>
-        <button onclick="count('*')">*</button>
-        <button onclick="count('/')">/</button>
+        <button onclick="plus()">+</button>
+        <button onclick="minus()">-</button>
+        <button onclick="times()">*</button>
+        <button onclick="divide()">/</button>
     </body>
 </html>

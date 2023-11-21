@@ -14,7 +14,28 @@
             
         </style>
         <script>
-            
+            function count(sign){
+                try{
+                    var tal1=parseInt(document.getElementById(nr1).value);
+                    var tal2=parseInt(document.getElementById(nr2).value);
+                    if (sign=='+'){
+                        alert(tal1+tal2);
+                    }
+                    else if (sign=='-'){
+                        alert(tal1-tal2);
+                    }
+                    else if (sign=='*'){
+                        alert(tal1*tal2);
+                    }
+                    else (sign=='/'){
+                        alert(tal1/tal2);
+                    }
+                }
+                
+                catch(ex) {
+                    alert(ex);
+                }
+    }
         </script>
     </head>
     <body>
@@ -22,9 +43,9 @@
             <p><label for="tal1">Tal: 1</label><input type="text" id="nr1"></p>
             <p><label for="tal2">Tal: 2</label><input type="text" id="nr2"></p>
         </form>
-        <botton onclick="">+</botton>
-        <botton onclick="">-</botton>
-        <botton onclick="">*</botton>
-        <botton onclick="">/</botton>
+        <botton onclick="count()">+</botton>
+        <botton onclick="count()">-</botton>
+        <botton onclick="count()">*</botton>
+        <botton onclick="count()">/</botton>
     </body>
 </html>

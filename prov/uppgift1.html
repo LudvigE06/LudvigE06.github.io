@@ -73,5 +73,41 @@
                 </tfoot>
             </table>
         </div>
+
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Name of driver</legend>
+                    <p><label for="firstname">First name:*</label>
+                        <input type="text" name="firstname" required></p>
+            
+                        <p><label for="lastname">Last name:*</label>
+                        <input type="text" name="lastname" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Car*</legend>
+                    <p><label for="redbull">Male</label>
+                    <input type="radio" name="car" id="redbull" value="Red Bull" required></p>
+                    <p><label for="mercedes">Female</label>
+                    <input type="radio" name="car" id="mercedes" value="Mercedes"></p>
+                    <p><label for="ferarri">Female</label>
+                    <input type="radio" name="car" id="ferarri" value="Ferrari"></p>
+                    <p><label for="aston">Female</label>
+                    <input type="radio" name="car" id="aston" value="Aston Martin"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Nationality</legend>
+                    <label id="nations" for="nationality">Choose a nationality:</label>
+            <select id="nationality" name="nation" aria-placeholder="--Please choose an option--">
+            
+            <option value="ned">NED</option>
+            <option value="mex">MEX</option>
+            <option value="gbr">GBR</option>
+            <option value="esp">ESP</option>
+            </select>
+                </fieldset>
+                <p><input type="submit" id="send" value="Send"></p>
+            </form>
+        </div>
     </body>
 </html>

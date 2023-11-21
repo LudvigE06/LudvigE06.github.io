@@ -4,21 +4,51 @@
         <meta charset="utf-8">
         <title>Table form</title>
         <style>
-
+            body{
+                background-color: rgb(188, 219, 125);
+            }
+            #tabell,#formul{
+                float: left;
+            }
+            caption{
+                font-style: italic;
+            }
+            table{
+                border: 2px solid blue;
+                text-align: center;
+            }
+            thead{
+                color: red;
+                font-weight: bold;
+                border-right: 1px solid green;
+                text-align: center;
+            }
+            tbody{
+                border-right: 1px solid green;
+                border-top: 1px solid green;
+                text-align: center;
+            }
+            tfoot{
+                color: green;
+                border-right: 1px solid green;
+                border-top: 1px solid green;
+                text-align: center;
+            }
+            
         </style>
     </head>
     <body>
-        <div>
+        <div id="tabell">
             <h1> Formula 1</h1>
             <table>
                 <caption>2023 driver standings</caption>
                 <thead>
                     <tr>
-                        <td>Pos</td>
-                        <td>Driver</td>
-                        <td>Nationality</td>
-                        <td>Car</td>
-                        <td>PTS</td>
+                        <th>Pos</th>
+                        <th>Driver</th>
+                        <th>Nationality</th>
+                        <th>Car</th>
+                        <th>PTS</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,7 +104,7 @@
             </table>
         </div>
 
-        <div>
+        <div id="formul">
             <form>
                 <fieldset>
                     <legend>Name of driver</legend>

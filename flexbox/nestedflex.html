@@ -4,7 +4,20 @@
         <meta charset="utf-8">
         <title>Nested flex</title>
         <style>
-            
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .second{
+                display: flex;
+            }
+            .second>div{
+                flex: 1;
+                flex-direction: column;
+            }
+            .wrapper>div{
+                flex: 1;
+            }
         </style>
     </head>
     <body>

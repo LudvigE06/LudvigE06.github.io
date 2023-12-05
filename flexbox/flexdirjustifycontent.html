@@ -20,13 +20,17 @@
                 background-color: rgb(104, 56, 56);
                 font-family: Verdana, sans-serif;
             }
-            .first ul{
-                display: flex;
-                letter-spacing: 5px;
+            img{
+                height: 6em;
             }
+            
             li{
                 border: 3px solid white;
                 border-radius: 5px;
+                letter-spacing: 2em;
+                text-align: center;
+                margin-left: 20px;
+                width: 30px;
             }
             .second{
                 background:no-repeat url("croissants.jpg");
@@ -34,6 +38,22 @@
                 display: flex;
                 justify-content: flex-end;
                 font-family: 'Courier New', Courier, monospace;
+            }
+
+            @media screen and (min-width:550px){
+                .first ul{
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .first{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .second{
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
             }
         </style>
     </head>

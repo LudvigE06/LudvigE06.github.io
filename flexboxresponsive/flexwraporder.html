@@ -42,15 +42,19 @@
 
             @media screen and (max-width:400px){
                 .wrapper>*{
-                    flex-basis: 100%;
+                    flex: 1 100%;
                 }
+                .main{
+                    order: 2;
+                }
+
             }
             @media screen and (max-width:800px){
                 .main{
                     flex-basis: 100%;
                 }
                 .aside{
-                    flex-basis: 50%;
+                    flex: 1 0px;
                 }
             }
         </style>

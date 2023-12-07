@@ -15,23 +15,14 @@
                 flex-wrap: wrap;
             }
             img{
-                box-shadow: 10px 10px red;
+                box-shadow: 3px 3px red;
                 margin: 10px;
                 flex: 1 100%;
             }
             @media screen and (min-width:450px){
-               .first{
-                order: 1;
-                flex-basis: 50%;
-            }
-            .second{
-                order: 2;
-                flex-basis: 50%;
-            }
-            .third{
-                order: 3;
-                
-            }
+               .first, .second{
+                flex: 1 0 0px;
+               }
             }
             @media screen and (min-width:900px){
                 .wrapper{
@@ -45,6 +36,9 @@
             }
             .third{
                 order: 2;
+            }
+            img{
+                flex: 1 0 0px;
             }
             }
         </style>

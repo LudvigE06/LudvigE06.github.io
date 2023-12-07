@@ -5,7 +5,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Flex cards text</title>
         <style>
-
+            .wrapper{
+                display: flex;
+                flex-direction: column-reverse;
+                flex-wrap: wrap;
+                font-weight: bold;
+                text-align: center;
+            }
+            .wrapper > *{
+                padding: .5em;
+                flex: 1 100%;
+            }
+            .header{
+                background-color: lightcoral;
+            }
+            .main{
+                background-color: lightskyblue;
+                text-align: left;
+            }
+            .aside-1{
+                background-color: gold;
+            }
+            .aside-2{
+                background-color: lightgoldenrodyellow;
+            }
+            .aside-3{
+                background-color: lightsalmon;
+            }
+            .footer{
+                background-color: lightgreen;
+            }
+            @media screen and (min-width:500px){
+                .aside{
+                    flex: 1 0 0px;
+                }
+            }
+            @media screen and (min-width:800px){
+                .main{
+                    order: 4;
+                }
+                .aside-1{
+                    order: 2;
+                }
+                .aside-2{
+                    order: 1;
+                }
+                .aside-3{
+                    order: 3;
+                }
+            }
         </style>
     </head>
     <body>

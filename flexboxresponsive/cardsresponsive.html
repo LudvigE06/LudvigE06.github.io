@@ -5,20 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Cards responsive</title>
         <style>
-            .wrapper{
+            body{
                 background-color: lightgreen;
+            }
+            .wrapper{
+                border-radius: 10px;
                 display: flex;
                 flex-direction: column-reverse;
+                flex-wrap: wrap;
             }
             img{
                 box-shadow: 10px 10px red;
                 margin: 1em;
             }
             @media screen and (min-width:450px){
-                .wrapper{
-                    flex-wrap: wrap;
-                }
-                .first{
+               .first{
                 order: 1;
                 flex-basis: 50%;
             }

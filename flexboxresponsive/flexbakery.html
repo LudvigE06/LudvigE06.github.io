@@ -5,7 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Flex bakery</title>
         <style>
-            
+            .all{
+              display: flex;
+              flex-direction: column;
+            }
+            .nav{
+              display: flex;
+              flex-direction: column;
+              margin: 10px;
+              padding: .3em;
+            }
+            ul{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              list-style-type: none;
+              background:no-repeat url("croissants.jpg");
+            }
+            li{
+              text-align: center;
+              flex: 1 100%;
+              border: 2px solid white;
+              border-radius: 10px;
+              padding: .3em;
+              color: white;
+            }
+            .main{
+              border: 8px solid wheat;
+            }
+            .main > h1{
+              box-shadow: -3px -3px rgb(104, 56, 56);
+              text-transform: capitalize;
+              color: rgb(104, 56, 56);
+            }
+            .itempara{
+              text-transform: capitalize;
+              color: rgb(104, 56, 56);
+            }
         </style>
     </head>
     <body>

@@ -39,18 +39,27 @@
             .main > h1{
               border-top: 2px solid rgb(104, 56, 56);
               border-left: 3px solid rgb(104, 56, 56);
-              text-transform: uppercase;
-              color: rgb(104, 56, 56);
+              
               padding-left: 1em;
             }
-            .itempara{
-              text-transform: uppercase;
+            .item{
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
               color: rgb(104, 56, 56);
+              text-transform: uppercase;
+              font-family: Verdana, sans-serif;
+            }
+            .itempara,.imgpara,.item{
+              margin: 1em;
               padding: .3em;
             }
             .aside{
              background-color: whitesmoke; 
              padding: .3em;
+             border-top-right-radius: 25px;
+             display: flex;
+             flex-direction: column;
             }
             .footer{
               text-align: center;

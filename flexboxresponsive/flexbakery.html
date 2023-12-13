@@ -72,23 +72,33 @@
 
             @media screen and (min-width:600px){
               .nav{
-                flex-direction: row;
+                flex-direction: row-reverse;
+                flex-wrap: wrap;
+                margin-top: 0px;
               }
               .meny{
                 flex: 1;
-                order: 1;
+                
               }
               ul{
                 flex-direction: row;
                 flex: 4;
-                order: 2;
+              }
+              li{
+                align-self: center;
               }
               .item{
                 flex-direction: row;
               }
               .aside{
                 flex-direction: row;
-                justify-content: space-around;
+                
+              }
+              .asideTitle{
+                flex: 1;
+              }
+              .asideItem{
+                flex: 2;
               }
             }
         </style>

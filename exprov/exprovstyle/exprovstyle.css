@@ -141,5 +141,13 @@ label{
 }
 
 @media screen and (max-width:600px){
-    
+    .mainbox{
+        display: none;
+    }
+    .boxes{
+        flex-direction: column-reverse;
+    }
+    .box{
+        width: 50%;
+    }
 }

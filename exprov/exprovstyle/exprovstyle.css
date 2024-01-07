@@ -107,6 +107,11 @@ label{
     color: rgb(71,0,255);
 }
 
+.formen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 @media screen and (max-width:1100px){
     form{

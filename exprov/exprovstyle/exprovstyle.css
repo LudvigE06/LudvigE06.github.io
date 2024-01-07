@@ -128,8 +128,15 @@ label{
     .links{
         flex-direction: column;
     }
+    .home{
+        width: 100%;
+    }
     .rest{
         flex-direction: column;
+        width: 100%;
+    }
+    .mainbox{
+        flex-direction: row-reverse;
     }
 }
 

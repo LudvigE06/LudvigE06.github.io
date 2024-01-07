@@ -87,6 +87,26 @@ img{
     margin: 0.8em;
 }
 
+.box p{
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset{
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0.3em 0.3em rgb(7, 100, 48);
+}
+
+legend{
+    color: rgb(138,43,226);
+    background-color: rgb(144, 238, 144);
+
+}
+
+label{
+    color: rgb(71,0,255);
+}
+
 
 @media screen and (max-width:1100px){
     form{

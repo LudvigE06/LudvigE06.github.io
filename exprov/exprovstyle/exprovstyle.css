@@ -153,4 +153,7 @@ label{
     .box{
         width: 50%;
     }
+    .bild{
+        display: none;
+    }
 }

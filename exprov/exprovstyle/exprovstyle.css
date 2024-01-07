@@ -105,6 +105,7 @@ fieldset{
     margin: 0.8em;
     padding: 0.5em;
     flex: 1;
+    width: 200px;
 }
 
 legend{

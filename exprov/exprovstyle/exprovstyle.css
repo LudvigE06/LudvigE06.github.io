@@ -95,6 +95,7 @@ img{
 fieldset{
     background-color: rgb(221, 221, 221);
     box-shadow: 0.3em 0.3em rgb(7, 100, 48);
+    flex: 1;
 }
 
 legend{
@@ -109,7 +110,7 @@ label{
 
 .formen{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 

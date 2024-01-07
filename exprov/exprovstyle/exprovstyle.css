@@ -144,8 +144,11 @@ label{
     .mainbox{
         display: none;
     }
-    .links{
-        flex-direction: column-reverse;
+    .home{
+        order: 2;
+    }
+    .rest{
+        order: 1;
     }
     .box{
         width: 50%;

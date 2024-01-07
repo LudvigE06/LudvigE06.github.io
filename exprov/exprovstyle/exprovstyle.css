@@ -114,6 +114,11 @@ label{
     color: rgb(71,0,255);
 }
 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 
 @media screen and (max-width:1100px){

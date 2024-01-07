@@ -125,7 +125,14 @@ label{
     form{
         display: none;
     }
-    
+    .links{
+        flex-direction: column;
+    }
+    .rest{
+        flex-direction: column;
+    }
 }
 
-
+@media screen and (max-width:600px){
+    
+}

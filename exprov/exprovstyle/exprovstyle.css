@@ -1,5 +1,13 @@
+body{
+    background-color: rgb(34,85,153);
+    margin: 2.5em;
+}   
 
-
+.links{
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    box-shadow: 0.3em 0.3em rgb(7, 221, 114);
+}
 
 
 @media screen and (max-width:1100px){

@@ -52,8 +52,10 @@ img{
     align-items: start;
     justify-content: start;
     padding: 1em;
-    margin: 1em;
+    margin: 0.5em 1.5em;
 }
+
+
 
 @media screen and (max-width:1100px){
     form{

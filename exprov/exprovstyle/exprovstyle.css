@@ -151,10 +151,4 @@ label{
     .box{
         width: 50%;
     }
-    .bild{
-        display: none;
-    }
-    body{
-        background-color: brown;
-    }
 }

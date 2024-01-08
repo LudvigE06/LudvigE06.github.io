@@ -97,7 +97,6 @@ img{
 form{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
@@ -120,7 +119,9 @@ label{
     margin: 0.4em;
 }
 
-
+#send{
+    margin-left: 35%;
+}
 
 
 @media screen and (max-width:1100px){

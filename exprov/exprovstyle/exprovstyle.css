@@ -131,10 +131,10 @@ label{
     .links{
         flex-direction: column;
     }
-    .home{
+    #home{
         width: 100%;
     }
-    .rest{
+    #rest{
         flex-direction: column;
         width: 100%;
     }

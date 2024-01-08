@@ -86,6 +86,7 @@ img{
     flex: 1;
     padding: 1em;
     margin: 0.8em;
+    width: 25%;
 }
 
 .box p{
@@ -148,7 +149,5 @@ label{
     .links{
         flex-direction: column-reverse;
     }
-    .box{
-        width: 25%;
-    }
+    
 }

@@ -101,13 +101,12 @@ form{
     justify-content: center;
 }
 
-fieldset{
+.formval{
     background-color: rgb(221, 221, 221);
     box-shadow: 0.3em 0.3em rgb(7, 100, 48);
     margin: 0.8em;
-    padding: 0.5em;
-    flex: 1;
-    width: 200px;
+    padding: 0.8em;
+    height: 13em;
 }
 
 legend{
@@ -118,7 +117,7 @@ legend{
 
 label{
     color: rgb(71,0,255);
-    margin: 0.2em;
+    margin: 0.4em;
 }
 
 

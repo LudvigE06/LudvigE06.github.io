@@ -19,7 +19,7 @@ body{
     display: flex;
 }
 
-.home a,.rest a{
+#home a,.rest a{
     flex: 1;
     display: block;
     text-decoration: none;

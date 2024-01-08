@@ -7,8 +7,13 @@
         <script src="https://kit.fontawesome.com/b96584f96b.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="/exprov/exprovmedia/ukFavicon.ico" >
         <link rel="stylesheet" type="text/css" href="/exprov/exprovstyle/exprovstyle.css">
+        <script>
+            function bkgroundchange(){
+                document.getElementById("b").style.backgroundColor="rgb(255, 231, 0)";
+            }
+        </script>
     </head>
-    <body>
+    <body id="b">
         <div class="links">
             <div class="home"><a href="#">HOME</a></div>
             <div class="rest">
@@ -18,7 +23,7 @@
             </div>
         </div>
         <div class="mainbox">
-            <div class="bild">
+            <div class="bild" onclick="bkgroundchange()">
             <img src="/exprov/exprovmedia/pic1.jpg" alt="ideas">
             </div>
             <div class="maintext">

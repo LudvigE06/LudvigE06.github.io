@@ -76,7 +76,7 @@ img{
     flex-wrap: wrap;
 }
 
-.boxes:hover{
+.box:hover{
     background-color: yellow;
 }
 
@@ -133,7 +133,7 @@ label{
     margin-left: 35%;
 }
 
-
+/*media queries mellan 1200px och 650px och 0px */
 @media screen and (max-width:1200px){
     form{
         display: none;

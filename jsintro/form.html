@@ -23,11 +23,20 @@
                 alert("Ni hao");
             }
 
-            function blur()
+            function defaultcolor(x)
             {
-
+                x.style.background="white" ;
             }
 
+            function namn(x)
+            {
+                x.style.background="yellow" ;
+            }
+
+            function city(x)
+            {
+                x.style.background="green" ;
+            }
 
         </script>
     </head>
@@ -45,10 +54,10 @@
             <input type="button" value="Kina" onclick="China()">
 
             <p><label for="namn">Namn:</label>
-            <input type="text" id="namn"  onfocus="" onblur=""></p>
+            <input type="text" id="namn"  onfocus="namn(this)" onblur="defaultcolor(this)"></p>
 
             <p><label for="city">Stad:</label>
-            <input type="text" id="city" onfocus="" onblur=""></p>
+            <input type="text" id="city" onfocus="city(this)" onblur="defaultcolor(this)"></p>
         </form>
     </body>
 </html>

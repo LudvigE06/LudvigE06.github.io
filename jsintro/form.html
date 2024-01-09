@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <title>Form</title>
         <script>
-            function showEx()
+            function showEx(iform)
             {
-                alert(document.getElementById("ex"))
+                alert("Värde från Exempel textfält är :" + 
+             iform.elements['exempelstring'].value );
             }
 
             function Japan()

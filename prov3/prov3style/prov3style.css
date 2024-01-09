@@ -159,5 +159,7 @@ label{
     .links{
         flex-direction: column-reverse;
     }
-    
+    .boxes{
+        width: 100%;
+    }
 }

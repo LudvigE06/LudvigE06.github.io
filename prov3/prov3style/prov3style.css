@@ -62,7 +62,7 @@ img{
     text-transform: capitalize;
 }
 
-.readmore{
+#readmore{
     background-color: rgb(51, 51, 51);
     text-decoration: none;
     border-radius: 25px;
@@ -70,9 +70,6 @@ img{
     color: white;
 }
 
-.readmore:hover{
-    border-radius: 0px;
-}
 
 .boxes{
     display: flex;

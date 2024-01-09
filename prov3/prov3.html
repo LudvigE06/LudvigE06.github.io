@@ -2,9 +2,96 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8">
-        <title>A Valid page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Your buisnes</title>
+        <script src="https://kit.fontawesome.com/b96584f96b.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/prov3/prov3media/usaFavicon.ico" >
+        <link rel="stylesheet" type="text/css" href="/prov3/prov3style/prov3style.css">
+        <script>
+
+        </script>
     </head>
     <body>
-        My valid page å ä ö
+        <div class="links">
+            <div id="home">
+            <a href="#">HOME</a>
+            <a href="#">NEWS</a>
+            </div>
+            <div id="rest">
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <div class="mainbox">
+            <div class="bild" onclick="bkgroundchange()">
+            <img src="/exprov/exprovmedia/pic1.jpg" alt="ideas">
+            </div>
+            <div class="maintext">
+                <h1>Your buissnes on the webb</h1>
+            <p class="mainpara">Lorem ipsum dolor, sit amet consectur adeliptur elit.</p>
+            <a href="#" class="readmore">Read More</a>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <i class="fa-solid fa-chart-pie" style="color: yellow;"></i>
+                <h2>Analytics</h2>
+                <p>Lorem ipsum, dolor elit.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-rectangle-ad" style="color: red;"></i>
+                <h2>Marketing</h2>
+                <p>Lorem ipsum, dolor elit.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-window-maximize" style="color: blue;"></i>
+                <h2>Development</h2>
+                <p>Lorem ipsum, dolor elit.</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-phone" style="color: rgb(0, 255, 0);"></i>
+                <h2>Support</h2>
+                <p>Lorem ipsum, dolor elit.</p>
+            </div>
+        </div>
+        <div class="formen">
+            <form>
+                <div class="formval">
+                <fieldset>
+                    <legend>Your name:</legend>
+                        <p><label for="firstname">First name:*</label>
+                            <input type="text" name="firstname" id="firstname" required></p>
+                
+                            <p><label for="lastname">Last name:*</label>
+                            <input type="text" name="lastname" id="lastname" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Nationality</legend>
+                    <label id="nations" for="nationality">Choose a nationality:</label>
+            <select id="nationality" name="nation">
+            
+            <option value="ned">NED</option>
+            <option value="swe">SWE</option>
+            <option value="usa">USA</option>
+            <option value="gbr">GBR</option>
+            </select>
+                </fieldset>
+                </div>
+                <div class="formval">
+                <fieldset>
+                    <legend>Skills</legend>
+            <p><label for="elec">Electrician</label>
+            <input type="checkbox" id="elec" name="skills" value="Electrician"></p>
+            <p><label for="bake">Baker</label>
+            <input type="checkbox" id="bake" name="skills" value="Baker" checked></p>
+            <p><label for="carpet">Carpenter</label>
+            <input type="checkbox" id="carpet" name="skills" value="Carpenter"></p>
+
+                </fieldset>
+                <p><input type="submit" id="send" value="Send"></p>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
